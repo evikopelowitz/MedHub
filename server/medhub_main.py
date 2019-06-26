@@ -1,7 +1,6 @@
 from flask import Flask
 import os
 
-
 path = ""
 app = Flask(__name__, static_folder=path)
 
